@@ -1,0 +1,163 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #FBFBFB;
+  font-size:19px;
+}
+*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  line-height: 1.;
+}
+:root{
+  --background-color: #FBFBFB;
+  --primary-grey: #636363;
+  --primary-black: #0D1321;
+}
+.header-wrapper
+{
+  display: flex;
+  justify-content:space-between;
+  background-color:#636363;
+}
+.logo
+{
+  padding:8px;
+  color:#F96900;
+}
+.menu-list
+{
+  display:flex;
+}
+.menu-list-items
+{
+  margin-left: 20px;
+  list-style: none;
+  padding: 8px;
+  
+}
+.menu-list-items a{
+  color:  #FBFBFB;
+  text-decoration:none;
+}
+.menu-list-items a:hover{
+  text-decoration: underline;
+  font-size: 16px;
+}
+.landing
+{
+  background-image: url("/abelteam.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  
+}
+.landing> p{
+  color:#FBFBFB;
+  font-size: 26px;
+  margin: 28px  520px 0 520px;
+  background-color: #1E1E24;
+  padding: 12px;
+}
+.text
+{
+  text-align: center;
+  color : #0c0c0c;
+  background-color: rgba(249, 105, 0,0.3);
+  font-size:24px ;
+  margin: 0px 520px;
+}
+.login
+{
+  background-color: rgba(99,99,99,0.9);
+  text-align: center;
+  margin: 190px 520px;
+  padding:20px;
+  
+}
+.login button
+{
+    font-size:20px;
+  border-radius: 7px;
+  padding: 12px;
+  color: #F96900;
+  margin-top: 9px;
+}
+.login button:hover
+{
+  color: #FBFBFB;
+  background-color:#110B11 ;
+
+}
+.login:hover
+{
+  background-color: rgba(27, 46, 92,0.3);
+}
+.login-text
+{
+  font-size: 1.2rem;
+  color:#F96900;
+    margin-left: 8px;
+}
+.sign-up
+{
+   margin-top: 4px;
+  border-radius: 4px;
+  
+}
+.sign-up:hover{
+  color: #F96900;
+  font-size:16px;
+}
+.about-us
+{
+  text-align: center;
+  
+}
+form{
+  font-size: 20px;
+}
+.contact-us
+{
+      text-align: center;
+      background-color: #0D0628;
+      margin: 200px 500px;
+      color: #FBFBFB;
+      padding: 12px;
+      font-size: 17px;
+      line-height: 2;
+}
+.contact-us p {
+  margin: 7px;
+}
+.contact>h1{
+  color: #F96900;
+}
+.about-us
+{
+  background-color:rgba(62, 78, 80,.4);
+  margin:20px 220px;
+}
+.contact-uss
+{
+  text-align: center;
+  background-color: #635f5d;
+  margin:20px 400px;
+  padding: 20px;
+}
+.contact-uss button
+{
+  font-size:20px;
+  border-radius: 7px;
+  padding: 12px;
+  color: #F96900;
+  margin-top: 9px;
+}
+.contact-uss button:hover
+{
+  color: #FBFBFB;
+  background-color:#110B11 ;
+
+}
