@@ -10,4 +10,11 @@ The following topics are covered in the leaning program:
 -                How the internet works `HTTPS`, `proxy` , `Web servers` `protocols` `DNS` etc.
 -                Html basics covering: tables, forms, headers, emmets etc
 -                CSS basics: Padding, margin, box-model, flexbox, grid system.
+-                Javascript: DOM, BOM, conditional statement, control structures, loops objects.
+-                Bootsrap: syntax, grid system
+-                PHP: basics i.e control structures, working with servers MYsql.
+***
+projects are created to emphasize learning.
+***
+
                  
